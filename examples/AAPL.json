@@ -3,13 +3,13 @@
   "company_name": "Apple Inc.",
   "overall_rating": "positive",
   "overall_confidence": "medium",
-  "summary": "Apple is a $4.35T consumer-electronics leader (E6, E1) with exceptional profitability (operating margin 32.3%, net margin 27.2%, ROE 141.5% — E14, E15, E16) and very strong cash generation ($140.22B operating and $101.09B free cash flow TTM — E18, E17). Recent growth is solid (revenue +16.6% and earnings +21.8% YoY — E11, E12), though the multi-year revenue trend was nearly flat from 2022 to 2024 ($394.3B→$383.3B→$391.0B) before rising to $416.2B in 2025 (E28). Valuation is rich (trailing P/E 35.84, forward P/E 30.89, P/B 40.83, PEG 2.35 — E7–E10), and the analyst mean target of $312.72 implies only ~5.5% upside from $296.42 (E2, E3), even as 43 analysts rate the stock a buy and it is up 46.7% over 52 weeks (E27, E26, E25). No direct competitive/moat data is provided, which materially limits overall confidence.",
+  "summary": "Apple combines elite profitability (47.9% gross, 32.3% operating, 27.2% net margins and 141.5% ROE per E13–E16) with very strong cash generation ($101.09B FCF and $140.22B operating cash flow TTM, E17–E18) and accelerating recent growth (revenue +16.6% and earnings +21.8% YoY, E11–E12). However, the multi-year revenue trend is choppy ($394.3B in 2022 dipping to $383.3B in 2023 before reaching $416.2B in 2025, E28), and the stock looks richly valued at a 35.84 trailing P/E, 40.83 price/book and 2.35 PEG (E7, E9, E10) with the analyst mean target of $312.72 only ~5.5% above the $296.42 price (E2–E3). Momentum and sentiment are clearly favorable (+51.5% over 52 weeks, buy consensus from 43 analysts; E25–E27). Balance-sheet metrics are mixed (net debt position and a thin 1.07 current ratio, E19–E22), and the evidence provides no direct read on Apple's competitive moat.",
   "dimensions": [
     {
       "dimension": "Growth (revenue & earnings trajectory)",
       "rating": "positive",
       "confidence": "medium",
-      "rationale": "Reported YoY growth is strong — revenue +16.6% (E11) and earnings +21.8% (E12) — and the 2025 revenue of $416.2B is an all-time high in the series (E28). However, the multi-year trend shows revenue was essentially flat-to-down from 2022 to 2024 ($394.3B→$383.3B→$391.0B, E28), and the 2024→2025 step (~6.4%) is inconsistent with the stated 16.6% YoY figure (E11), tempering confidence in the trajectory.",
+      "rationale": "Most recent quarter shows strong year-over-year growth of 16.6% in revenue and 21.8% in earnings (E11, E12). The multi-year annual trend is uneven, however: revenue fell from $394.3B (2022) to $383.3B (2023), recovered to $391.0B (2024), then rose to $416.2B (2025) — roughly 1.8% annualized over the period despite the strong recent quarter (E28). The acceleration is encouraging but the longer trajectory tempers confidence.",
       "evidence_ids": [
         "E11",
         "E12",
@@ -20,7 +20,7 @@
       "dimension": "Profitability & Margins",
       "rating": "strong_positive",
       "confidence": "high",
-      "rationale": "Margins are exceptional and mutually corroborating: gross margin 47.9% (E13), operating margin 32.3% (E14), and net profit margin 27.2% (E15). Return on equity is an extraordinary 141.5% (E16), though this is amplified by a small/leveraged equity base (consistent with the P/B of 40.83). The cluster of strong, current, direct metrics supports high confidence.",
+      "rationale": "Margins are exceptional and mutually reinforcing: 47.9% gross, 32.3% operating, and 27.2% net profit margin (E13–E15). Return on equity of 141.5% (E16) is extraordinary, though it is amplified by a low equity base from buybacks. Four direct, current data points all point the same direction.",
       "evidence_ids": [
         "E13",
         "E14",
@@ -32,20 +32,19 @@
       "dimension": "Balance Sheet & Financial Health",
       "rating": "neutral",
       "confidence": "medium",
-      "rationale": "Total debt of $84.71B (E20) modestly exceeds total cash of $68.51B (E19), leaving a slight net-debt position, and the current ratio is just 1.07 (E22), indicating only thin working-capital coverage. Debt/equity is elevated at 79.55 (E21), partly a function of a depleted book-equity base. Strong free cash flow of $101.09B (E17) makes the debt easily serviceable, but the headline liquidity ratios are unremarkable.",
+      "rationale": "The picture is genuinely mixed. Apple carries a net debt position with $84.71B total debt against $68.51B cash (E19–E20) and an elevated debt/equity ratio of 79.55 (E21). Liquidity is thin, with a current ratio of just 1.07 (E22). These metrics are offset by very strong cash generation, but on the balance-sheet figures alone the signals balance out.",
       "evidence_ids": [
         "E19",
         "E20",
         "E21",
-        "E22",
-        "E17"
+        "E22"
       ]
     },
     {
       "dimension": "Valuation",
       "rating": "negative",
       "confidence": "medium",
-      "rationale": "Valuation is demanding across every metric provided: trailing P/E 35.84 (E7), forward P/E 30.89 (E8), Price/Book 40.83 (E9), and a PEG of 2.35 (E10), the latter above the 2.0 level often viewed as expensive relative to growth. At $296.42 (E2) the stock sits only ~5.5% below the analyst mean target of $312.72 (E3), leaving little margin of safety. The negative rating reflects price, not business quality.",
+      "rationale": "Valuation multiples are stretched: trailing P/E of 35.84, forward P/E of 30.89, price/book of 40.83, and a PEG of 2.35 (E7–E10), the latter well above 1 indicating the price is rich relative to growth. The analyst mean target of $312.72 implies only ~5.5% upside from the $296.42 current price (E2–E3), confirming limited valuation headroom. Multiple direct points agree the stock is expensive.",
       "evidence_ids": [
         "E2",
         "E3",
@@ -59,7 +58,7 @@
       "dimension": "Cash Flow Quality",
       "rating": "strong_positive",
       "confidence": "high",
-      "rationale": "Cash generation is robust and high-quality: operating cash flow of $140.22B TTM (E18) converts to free cash flow of $101.09B TTM (E17), implying roughly $39B of capex and a ~72% FCF conversion. The magnitude and consistency of these direct, current figures support high confidence.",
+      "rationale": "Cash generation is very strong, with $140.22B trailing-twelve-month operating cash flow converting to $101.09B free cash flow (E17–E18) — roughly a 72% FCF/OCF conversion rate. The scale and quality of cash flow are direct strengths.",
       "evidence_ids": [
         "E17",
         "E18"
@@ -69,14 +68,14 @@
       "dimension": "Competitive Position / Moat",
       "rating": "insufficient_data",
       "confidence": "low",
-      "rationale": "No direct competitive evidence is provided — there are no market-share figures, switching-cost or pricing-power data, nor any competitor comparison. The business summary (E29) describes the product ecosystem (iPhone, Mac, iPad, wearables, App Store, services) and high margins/ROE hint at an advantage, but inferring a moat from these would be guessing. Per the discipline of this tool, this is marked as a data gap rather than rated.",
+      "rationale": "No direct competitive evidence — market share, switching costs, pricing power, or durable competitive advantage — is provided. The business summary (E29) lists product lines and ecosystem services (App Store, AppleCare, cloud) but contains no moat data, so this dimension cannot be rated and is flagged as a data gap rather than guessed.",
       "evidence_ids": []
     },
     {
       "dimension": "Momentum & Market Sentiment",
       "rating": "positive",
       "confidence": "high",
-      "rationale": "Momentum and sentiment are clearly favorable: the stock is up 46.7% over 52 weeks (E25) and at $296.42 trades near its 52-week high of $317.40 and well above the $195.07 low (E2, E4, E5). Sentiment is supportive with a 'buy' consensus from 43 covering analysts (E26, E27), beta of 1.09 indicating roughly market-level volatility (E24), and a mean target of $312.72 (E3). Multiple concordant data points justify high confidence, though the ~5.5% upside to target is modest.",
+      "rationale": "Sentiment and momentum are clearly favorable: the stock is up 51.5% over the past 52 weeks (E25) and trades at $296.42, near its 52-week high of $317.40 and well above the $195.07 low (E2, E4, E5). Analyst consensus is buy across 43 covering analysts (E26–E27) with a mean target above the current price (E3), while beta of 1.09 indicates only slightly above-market volatility (E24).",
       "evidence_ids": [
         "E2",
         "E3",
@@ -92,33 +91,33 @@
       "dimension": "Risks & Red Flags",
       "rating": "negative",
       "confidence": "medium",
-      "rationale": "Several concrete risks are evident: stretched valuation (P/E 35.84, P/B 40.83, PEG 2.35 — E7, E9, E10), thin liquidity with a 1.07 current ratio and debt ($84.71B) exceeding cash ($68.51B) (E22, E20, E19), and a multi-year revenue plateau from 2022 to 2024 (E28). The stock also trades near its 52-week high (E4), limiting upside, and a news headline flags a 'giant headwind' coming for the largest 'Magnificent 7' stocks (E30), though it lacks specifics. These are real but not acutely distressing, hence a negative rather than strong-negative rating.",
+      "rationale": "Several concrete risk signals are present: stretched valuation multiples (35.84 trailing P/E, 40.83 price/book, 2.35 PEG; E7, E9, E10), elevated leverage with debt/equity of 79.55 and a net debt position ($84.71B debt vs $68.51B cash; E20, E21, E19), and thin liquidity at a 1.07 current ratio (E22). There is also a concrete, company-specific regulatory action: the Italian competition watchdog's investigation into Apple's cloud service practices (E32). Off-topic headlines about SpaceX and STMicro (E30–E31, E33–E34) are disregarded as non-evidence.",
       "evidence_ids": [
-        "E4",
         "E7",
         "E9",
         "E10",
         "E19",
         "E20",
+        "E21",
         "E22",
-        "E28",
-        "E30"
+        "E32"
       ]
     }
   ],
   "key_risks": [
-    "Stretched valuation leaves little margin of safety: trailing P/E 35.84, forward P/E 30.89, P/B 40.83, and PEG 2.35 (E7–E10), with the analyst mean target of $312.72 implying only ~5.5% upside from $296.42 (E2, E3).",
-    "Revenue plateau and data inconsistency: revenue was flat-to-down 2022–2024 ($394.3B→$383.3B→$391.0B) before recovering to $416.2B in 2025 (E28), and the stated 16.6% YoY growth (E11) is inconsistent with the ~6% implied by the annual series.",
-    "Thin liquidity and slight net-debt position: current ratio of only 1.07 (E22) and total debt of $84.71B exceeding total cash of $68.51B (E20, E19).",
-    "Price near its 52-week high ($296.42 vs. $317.40 high — E2, E4), increasing pullback risk and limiting upside.",
-    "A sector/macro headwind flagged for the largest 'Magnificent 7' stocks (E30), though the headline provides no specifics."
+    "Stretched valuation: 35.84 trailing P/E, 40.83 price/book, and 2.35 PEG, with the analyst mean target of $312.72 only ~5.5% above the $296.42 price (E2, E3, E7, E9, E10).",
+    "Elevated leverage and net debt: total debt of $84.71B exceeds $68.51B cash and debt/equity is 79.55 (E19, E20, E21).",
+    "Thin liquidity: current ratio of just 1.07 (E22).",
+    "Regulatory exposure: Italian competition watchdog investigation into Apple's cloud service practices (E32).",
+    "Choppy multi-year revenue, including a decline from $394.3B (2022) to $383.3B (2023) before recovery (E28)."
   ],
   "data_gaps": [
-    "No competitive/moat metrics at all — no market share, switching-cost, pricing-power, or competitor-comparison data; E29 is only a product description, so the Competitive Position dimension cannot be rated.",
-    "No product-segment or geographic revenue breakdown (e.g., iPhone vs. Services mix or regional concentration), preventing assessment of revenue concentration risk.",
-    "Internal inconsistency between the stated YoY revenue growth of 16.6% (E11) and the ~6% implied by the 2024→2025 annual trend (E28).",
-    "No historical margin trend — only current-period margins (E13–E16) are given, so margin trajectory and durability cannot be evaluated.",
-    "No forward estimates, guidance, R&D, or capex detail beyond what can be inferred, and no buyback data; with a dividend yield of only 0.36% (E23), total capital return cannot be assessed.",
-    "Recent news items E31–E34 (SpaceX, UNI/crypto, Roku, European digital sovereignty) are unrelated to Apple and provide no company-specific catalyst or risk information."
+    "No competitive/moat data: market share, switching costs, pricing power, or ecosystem lock-in metrics.",
+    "No revenue segment breakdown (e.g. iPhone vs. Services mix) or geographic exposure.",
+    "No historical margin or ROE trend to confirm whether profitability is stable, expanding, or peaking.",
+    "No forward analyst growth estimates or management guidance beyond the implied forward P/E.",
+    "No peer or industry valuation comparison to contextualize the rich multiples.",
+    "Limited capital-return detail: only a 0.36% dividend yield is given (E23), with no buyback or total shareholder-return data.",
+    "No debt maturity schedule, interest coverage, or insider/institutional ownership data."
   ]
 }
