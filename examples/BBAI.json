@@ -1,0 +1,128 @@
+{
+  "ticker": "BBAI",
+  "company_name": "BigBear.ai Holdings, Inc.",
+  "overall_rating": "negative",
+  "overall_confidence": "medium",
+  "summary": "BigBear.ai is a deeply unprofitable AI decision-intelligence provider (net margin -226.7%, operating margin -66.9%, ROE -58.4%) with stagnant-to-declining revenue (-0.9% YoY; annual trend $0.2B in 2022-2024 falling to $0.1B in 2025). The company is burning cash (FCF -$59.49M, OCF -$53.29M TTM) but is cushioned by a strong liquidity position ($349.39M cash against only $24.11M total debt and a 6.08 current ratio). The stock is highly volatile (beta 3.08), sits 57% below its 52-week high of $9.39, and is thinly covered (3 analysts, no consensus), though the $5.33 mean target implies upside from $4.05. Profitability and cash flow are clear negatives partly offset by balance-sheet liquidity; competitive positioning cannot be assessed from the evidence provided.",
+  "dimensions": [
+    {
+      "dimension": "Growth (revenue & earnings trajectory)",
+      "rating": "negative",
+      "confidence": "medium",
+      "rationale": "Revenue growth is -0.9% YoY (E9), and the annual trend is flat-to-declining: $0.2B in 2022, 2023, and 2024, dropping to $0.1B in 2025 (E24). Earnings are negative, with a forward P/E of -20.25 indicating expected losses (E7). The figures are rounded to coarse $0.1B/$0.2B buckets, limiting precision.",
+      "evidence_ids": [
+        "E9",
+        "E24",
+        "E7"
+      ]
+    },
+    {
+      "dimension": "Profitability & Margins",
+      "rating": "strong_negative",
+      "confidence": "high",
+      "rationale": "Profitability is deeply negative across every metric: operating margin -66.9% (E11), net profit margin -226.7% (E12), and return on equity -58.4% (E13). Even gross margin is a modest 25.8% (E10), leaving little to cover heavy operating costs. Multiple direct, consistent data points support this rating.",
+      "evidence_ids": [
+        "E10",
+        "E11",
+        "E12",
+        "E13"
+      ]
+    },
+    {
+      "dimension": "Balance Sheet & Financial Health",
+      "rating": "positive",
+      "confidence": "medium",
+      "rationale": "Liquidity is strong: total cash of $349.39M dwarfs total debt of $24.11M (E16, E17), and the current ratio is 6.08 (E19), giving a large net cash buffer against ongoing losses. The offsetting concern is a debt/equity ratio of 3.05 (E18), which signals a small or eroded equity base consistent with accumulated losses, so the rating is positive rather than strong.",
+      "evidence_ids": [
+        "E16",
+        "E17",
+        "E18",
+        "E19"
+      ]
+    },
+    {
+      "dimension": "Valuation",
+      "rating": "neutral",
+      "confidence": "medium",
+      "rationale": "Earnings-based valuation is not meaningful given a negative forward P/E of -20.25 (E7); price/book is 2.44 (E8). At $4.05 versus a $5.33 mean analyst target (E2, E3) there is roughly 32% implied upside, but the $1.94B market cap (E6) against revenue of only ~$0.1-0.2B (E24) implies a rich price/sales multiple. Conflicting signals (upside to target vs. high revenue multiple and no earnings) net to neutral.",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E6",
+        "E7",
+        "E8",
+        "E24"
+      ]
+    },
+    {
+      "dimension": "Cash Flow Quality",
+      "rating": "negative",
+      "confidence": "high",
+      "rationale": "Both operating cash flow (-$53.29M TTM, E15) and free cash flow (-$59.49M TTM, E14) are negative, indicating the business is consuming cash rather than generating it. The two direct data points agree. The burn is partly mitigated by a large cash balance (E16) but the cash flow itself is poor quality.",
+      "evidence_ids": [
+        "E14",
+        "E15"
+      ]
+    },
+    {
+      "dimension": "Competitive Position / Moat",
+      "rating": "insufficient_data",
+      "confidence": "low",
+      "rationale": "The evidence describes the business — AI-powered decision intelligence for national security, supply chain, and digital identity (E25) — but provides no data on market share, customer concentration, switching costs, pricing power, or competitor comparison. No moat-relevant metrics are present, so this dimension cannot be rated and is left as insufficient_data per the grounding rules.",
+      "evidence_ids": []
+    },
+    {
+      "dimension": "Momentum & Market Sentiment",
+      "rating": "negative",
+      "confidence": "medium",
+      "rationale": "At $4.05 the stock sits near its 52-week low of $3.01 and about 57% below its 52-week high of $9.39 (E2, E4, E5), with a roughly flat 52-week change of -2.9% (E21) masking high volatility (beta 3.08, E20). Coverage is thin with only 3 analysts and no consensus rating (E22, E23). The $5.33 mean target (E3) is the lone positive signal against otherwise weak momentum and sentiment.",
+      "evidence_ids": [
+        "E2",
+        "E4",
+        "E5",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E3"
+      ]
+    },
+    {
+      "dimension": "Risks & Red Flags",
+      "rating": "strong_negative",
+      "confidence": "high",
+      "rationale": "Numerous red flags are evident: extreme losses (net margin -226.7%, ROE -58.4%; E12, E13), cash burn (FCF -$59.49M; E14), declining revenue (-0.9% YoY and trend down to $0.1B in 2025; E9, E24), a high debt/equity ratio of 3.05 (E18), and very high volatility (beta 3.08; E20). Thin analyst coverage with no consensus (E22, E23) and a price 57% off its high (E4) compound the risk profile.",
+      "evidence_ids": [
+        "E12",
+        "E13",
+        "E14",
+        "E9",
+        "E24",
+        "E18",
+        "E20",
+        "E22",
+        "E23",
+        "E4"
+      ]
+    }
+  ],
+  "key_risks": [
+    "Severe unprofitability: net margin -226.7%, operating margin -66.9%, ROE -58.4% (E11, E12, E13)",
+    "Ongoing cash burn: free cash flow -$59.49M and operating cash flow -$53.29M TTM (E14, E15)",
+    "Revenue stagnation and decline: -0.9% YoY and annual trend falling from $0.2B to $0.1B in 2025 (E9, E24)",
+    "High debt/equity ratio of 3.05 indicating an eroded equity base (E18)",
+    "Very high volatility: beta of 3.08 versus the market (E20)",
+    "Thin analyst coverage — only 3 analysts with no consensus rating (E22, E23)",
+    "Stock trades about 57% below its 52-week high of $9.39 and near its $3.01 low (E2, E4, E5)"
+  ],
+  "data_gaps": [
+    "No competitive, market-share, customer-concentration, or moat data to assess durability of the business (only a qualitative business description in E25)",
+    "No quantified contract/backlog value for the referenced Panama deal or other commercial wins (E28, E30 are headlines only)",
+    "No forward revenue or earnings guidance figures despite the '2026 outlook' headline (E26)",
+    "No segment-level revenue breakdown or detail on the 2025 revenue decline",
+    "No share-count or dilution data, which is material for a cash-burning company",
+    "No precise earnings/EPS figures — only margin ratios and a negative forward P/E (E7)",
+    "No peer or industry benchmark data for valuation or margins",
+    "Valuation lacks a meaningful earnings multiple because earnings are negative (E7)"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "ticker": "KO",
+  "company_name": "The Coca-Cola Company",
+  "overall_rating": "neutral",
+  "overall_confidence": "medium",
+  "summary": "Coca-Cola is a high-quality Consumer Defensive beverage company (E1) with exceptional profitability — 61.7% gross, 35.1% operating, and 27.8% net margins alongside a 43.4% ROE (E13–E16) — and favorable momentum, up 17.2% over the past year with a low 0.35 beta and a 'buy' consensus from 24 analysts (E25, E24, E26, E27). However, the investment case is balanced by a full valuation (PEG 4.23, trailing P/E 25.44, P/B 10.35) against only ~6% upside to the $85.97 mean target (E10, E7, E9, E3, E2), elevated leverage (Debt/Equity 124.94; $44.65B debt vs $13.82B cash) (E21, E20, E19), and a striking gap between strong operating cash flow ($14.63B) and weak free cash flow ($3.12B) (E18, E17). Reported YoY revenue/earnings growth of 12.1%/18.2% (E11, E12) also conflicts with the annual revenue trend, which shows growth decelerating to ~1.7% in the latest year (E28). No competitive/moat metrics are provided, which caps overall confidence.",
+  "dimensions": [
+    {
+      "dimension": "Growth (revenue & earnings trajectory)",
+      "rating": "positive",
+      "confidence": "medium",
+      "rationale": "Reported YoY growth is solid at 12.1% for revenue and 18.2% for earnings (E11, E12). However, the multi-year revenue trend ($43.0B → $45.8B → $47.1B → $47.9B) shows clear deceleration, with the most recent year growing only ~1.7% versus ~6.5% two years prior (E28). This internal inconsistency between the 12.1% YoY figure and the ~1.7% implied by the annual series tempers confidence.",
+      "evidence_ids": [
+        "E11",
+        "E12",
+        "E28"
+      ]
+    },
+    {
+      "dimension": "Profitability & Margins",
+      "rating": "strong_positive",
+      "confidence": "high",
+      "rationale": "Margins are exceptional across the board: 61.7% gross, 35.1% operating, and 27.8% net (E13, E14, E15), indicating strong pricing and cost control. Return on equity of 43.4% (E16) is outstanding, though it is partly flattered by high financial leverage (E21). Multiple direct, consistent data points support a high-confidence rating.",
+      "evidence_ids": [
+        "E13",
+        "E14",
+        "E15",
+        "E16"
+      ]
+    },
+    {
+      "dimension": "Balance Sheet & Financial Health",
+      "rating": "neutral",
+      "confidence": "medium",
+      "rationale": "Leverage is high: Debt/Equity of 124.94 with $44.65B total debt against only $13.82B cash, implying roughly $30.8B net debt (E21, E20, E19). Liquidity is adequate with a current ratio of 1.36 (E22). The strong operating cash flow (E18) supports debt service, but the elevated leverage offsets the otherwise sound liquidity, warranting a neutral rating.",
+      "evidence_ids": [
+        "E19",
+        "E20",
+        "E21",
+        "E22"
+      ]
+    },
+    {
+      "dimension": "Valuation",
+      "rating": "negative",
+      "confidence": "medium",
+      "rationale": "Valuation appears full: trailing P/E 25.44, forward P/E 23.23, Price/Book 10.35, and a notably high PEG of 4.23 (E7, E8, E9, E10). At $80.91 the stock offers only ~6% upside to the $85.97 mean analyst target (E2, E3). The premium multiples relative to growth pull this dimension negative, though the modest positive analyst target prevents a strong_negative.",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E7",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    {
+      "dimension": "Cash Flow Quality",
+      "rating": "neutral",
+      "confidence": "medium",
+      "rationale": "Operating cash flow is robust at $14.63B (E18), but free cash flow is only $3.12B (E17), leaving an unusually large ~$11.5B gap that implies heavy capex, working-capital, or other outflows. The $3.12B FCF against a $348.11B market cap (E6) is a sub-1% FCF yield. The strong OCF is positive, but the weak FCF conversion and lack of detail explaining the gap keep this neutral.",
+      "evidence_ids": [
+        "E17",
+        "E18",
+        "E6"
+      ]
+    },
+    {
+      "dimension": "Competitive Position / Moat",
+      "rating": "insufficient_data",
+      "confidence": "low",
+      "rationale": "No direct moat metrics (market share, pricing power, switching costs, brand-value figures) are provided in the evidence. The business summary lists a broad brand portfolio (E29) and a headline references a 70-year McDonald's–Coke alliance (E32), but these are qualitative and indirect and do not substantiate a quantitative moat rating. Per the discipline of this tool, the dimension is marked insufficient_data rather than inferred.",
+      "evidence_ids": []
+    },
+    {
+      "dimension": "Momentum & Market Sentiment",
+      "rating": "positive",
+      "confidence": "medium",
+      "rationale": "Sentiment is favorable: the stock is up 17.2% over 52 weeks and trades at $80.91, near its $84.04 high and well above its $65.35 low (E25, E2, E4, E5). Beta of 0.35 indicates low volatility, and consensus is 'buy' across 24 analysts (E24, E26, E27). A recent headline noting the stock fell amid a market uptick (E30) is a mild offset, keeping confidence at medium.",
+      "evidence_ids": [
+        "E2",
+        "E4",
+        "E5",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E30"
+      ]
+    },
+    {
+      "dimension": "Risks & Red Flags",
+      "rating": "negative",
+      "confidence": "medium",
+      "rationale": "Several red flags are present in the evidence: high leverage (Debt/Equity 124.94, $44.65B debt vs $13.82B cash) (E21, E20, E19); a premium valuation (PEG 4.23, P/E 25.44, P/B 10.35) with limited ~6% upside to target (E10, E7, E9, E3, E2); weak FCF conversion ($3.12B FCF vs $14.63B OCF) (E17, E18); and a decelerating annual revenue trend that conflicts with the headline 12.1% YoY figure (E28, E11). Collectively these justify a negative rating.",
+      "evidence_ids": [
+        "E10",
+        "E11",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E28"
+      ]
+    }
+  ],
+  "key_risks": [
+    "High financial leverage: Debt/Equity of 124.94 with $44.65B total debt against $13.82B cash (~$30.8B net debt) (E21, E20, E19).",
+    "Full valuation with limited upside: PEG 4.23, trailing P/E 25.44, and P/B 10.35, versus only ~6% upside from $80.91 to the $85.97 mean target (E10, E7, E9, E2, E3).",
+    "Weak free-cash-flow conversion: FCF of only $3.12B against $14.63B operating cash flow, a sub-1% FCF yield on a $348.11B market cap (E17, E18, E6).",
+    "Decelerating revenue trajectory: annual revenue grew only ~1.7% in the latest year ($47.1B → $47.9B), conflicting with the reported 12.1% YoY figure (E28, E11).",
+    "Stock trades near its 52-week high ($80.91 vs $84.04), leaving little margin of safety (E2, E4)."
+  ],
+  "data_gaps": [
+    "No competitive/moat data whatsoever — market share, pricing power, switching costs, or brand-value metrics — preventing assessment of durable advantage.",
+    "Unexplained conflict between reported YoY revenue growth of 12.1% (E11) and the annual revenue series implying only ~1.7% growth in the latest year (E28).",
+    "No capex breakdown to explain the large ~$11.5B gap between operating cash flow and free cash flow (E18, E17).",
+    "No EPS figures, share count, buyback activity, or historical earnings trend (only a revenue series is provided).",
+    "No segment or geographic revenue/margin breakdown for a company that operates internationally (E29).",
+    "No margin or return trend over time — all profitability figures are point-in-time (E13–E16).",
+    "No dividend payout ratio or coverage data to assess sustainability of the 2.57% yield (E23).",
+    "No forward guidance or estimate detail beyond the forward P/E and analyst mean target (E8, E3)."
+  ]
+}
