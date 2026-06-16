@@ -19,7 +19,6 @@ import json
 import os
 import subprocess
 
-from .aggregate import compute_overall
 from .data import Evidence, format_evidence
 from .schema import ThesisScorecard
 
@@ -67,8 +66,10 @@ You assess a FIXED set of dimensions. Some (e.g. Competitive Position / Moat) \
 will usually lack direct evidence — rate them `insufficient_data` rather than \
 guessing, and note the gap. This honesty is the point of the tool.
 
-Note: the `overall_rating` you provide is recomputed deterministically from your \
-dimension ratings, so focus your effort on getting each dimension right."""
+For `overall_rating`, give your holistic judgment — it should be a sensible \
+synthesis of the dimensions, not a mechanical average. (A separate rules-based \
+baseline is computed alongside as a cross-check, and the eval harness measures \
+how stable your overall is and how often it agrees with that baseline.)"""
 
 
 def build_user_message(ticker: str, company: str, evidence: list[Evidence]) -> str:
@@ -156,13 +157,7 @@ def run_thesis(
         backend = "sdk" if os.environ.get("ANTHROPIC_API_KEY") else "cli"
     system, user = SYSTEM, build_user_message(ticker, company, evidence)
     if backend == "sdk":
-        card = _complete_sdk(system, user)
-    elif backend == "cli":
-        card = _complete_cli(system, user)
-    else:
-        raise ValueError(f"Unknown backend: {backend!r} (use 'auto', 'sdk', or 'cli').")
-
-    # The overall rating is computed from dimensions, not left to the model
-    # (eval found the model's holistic roll-up wobbles run-to-run).
-    card.overall_rating, card.overall_confidence = compute_overall(card.dimensions)
-    return card
+        return _complete_sdk(system, user)
+    if backend == "cli":
+        return _complete_cli(system, user)
+    raise ValueError(f"Unknown backend: {backend!r} (use 'auto', 'sdk', or 'cli').")

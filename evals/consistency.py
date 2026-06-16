@@ -12,6 +12,7 @@ from collections import Counter
 from dataclasses import dataclass, field
 
 from thesis_agent.agent import run_thesis
+from thesis_agent.aggregate import compute_overall
 from thesis_agent.data import Evidence, build_evidence
 from thesis_agent.schema import ThesisScorecard
 
@@ -20,15 +21,25 @@ from thesis_agent.schema import ThesisScorecard
 class ConsistencyReport:
     ticker: str
     runs: int
-    overall_ratings: list[str]
+    overall_ratings: list[str]  # model's overall, per run
+    baseline_ratings: list[str]  # rules-based baseline, per run
     per_dimension: dict[str, list[str]]  # dimension -> ratings across runs
 
     @property
     def overall_agreement(self) -> float:
+        """Run-to-run stability of the model's overall rating."""
         if not self.overall_ratings:
             return 0.0
         top = Counter(self.overall_ratings).most_common(1)[0][1]
         return top / len(self.overall_ratings)
+
+    @property
+    def calibration(self) -> float:
+        """How often the model's overall matches the rules-based baseline."""
+        if not self.overall_ratings:
+            return 0.0
+        agree = sum(m == b for m, b in zip(self.overall_ratings, self.baseline_ratings))
+        return agree / len(self.overall_ratings)
 
     @property
     def dimension_agreement(self) -> float:
@@ -41,9 +52,11 @@ class ConsistencyReport:
     def render(self) -> str:
         lines = [
             f"Consistency [{self.ticker}] over {self.runs} runs (same evidence):",
-            f"  overall rating agreement   : {self.overall_agreement:.0%}"
+            f"  model overall stability    : {self.overall_agreement:.0%}"
             f"  {self.overall_ratings}",
             f"  dimensions unanimous       : {self.dimension_agreement:.0%}",
+            f"  calibration vs rule baseline: {self.calibration:.0%}"
+            f"  (baseline: {self.baseline_ratings})",
         ]
         for dim, ratings in self.per_dimension.items():
             flag = "" if len(set(ratings)) == 1 else "  <-- varies"
@@ -64,6 +77,7 @@ def run_consistency(ticker: str, n: int = 3, backend: str = "auto") -> Consisten
         ticker=ticker.upper(),
         runs=n,
         overall_ratings=[c.overall_rating.value for c in cards],
+        baseline_ratings=[compute_overall(c.dimensions)[0].value for c in cards],
         per_dimension=per_dim,
     )
 

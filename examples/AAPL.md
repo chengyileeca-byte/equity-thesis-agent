@@ -1,98 +1,98 @@
 # Thesis Scorecard — Apple Inc. (AAPL)
 
-## Overall: 🟢 Positive  ·  confidence: **medium**
+## Overall (model): 🟢 Positive  ·  confidence: **medium**
 
-Apple combines elite profitability (47.9% gross, 32.3% operating, 27.2% net margins and 141.5% ROE per E13–E16) with very strong cash generation ($101.09B FCF and $140.22B operating cash flow TTM, E17–E18) and accelerating recent growth (revenue +16.6% and earnings +21.8% YoY, E11–E12). However, the multi-year revenue trend is choppy ($394.3B in 2022 dipping to $383.3B in 2023 before reaching $416.2B in 2025, E28), and the stock looks richly valued at a 35.84 trailing P/E, 40.83 price/book and 2.35 PEG (E7, E9, E10) with the analyst mean target of $312.72 only ~5.5% above the $296.42 price (E2–E3). Momentum and sentiment are clearly favorable (+51.5% over 52 weeks, buy consensus from 43 analysts; E25–E27). Balance-sheet metrics are mixed (net debt position and a thin 1.07 current ratio, E19–E22), and the evidence provides no direct read on Apple's competitive moat.
+<sub>Rules-based baseline (deterministic cross-check): 🟢 Positive · agrees with the model's call.</sub>
+
+Apple is a high-quality, highly profitable and cash-generative business: gross/operating/net margins of 47.9%/32.3%/27.2% (E13-E15) and $101.09B TTM free cash flow (E17) underpin the thesis, while recent growth (16.6% revenue and 21.8% earnings YoY - E11, E12) plus a 51.5% 52-week return with a 'buy' consensus (E25, E26) show strong momentum. The main offset is valuation: trailing P/E 36.18, forward P/E 31.19, price/book 41.22 and PEG 2.35 (E7-E10) are rich, and at $299.24 the stock sits only ~4.5% below the $312.72 mean target (E2, E3). The balance sheet is adequate but not conservative - a net-debt position with debt/equity of 79.55 and a thin 1.07 current ratio (E20-E22). No competitive/moat evidence was provided (a key gap), so the overall positive view rests on quality and momentum, partially capped by an expensive valuation.
 
 ## Dimensions
 
 ### Growth (revenue & earnings trajectory)
 **🟢 Positive**  ·  confidence: **medium**
 
-Most recent quarter shows strong year-over-year growth of 16.6% in revenue and 21.8% in earnings (E11, E12). The multi-year annual trend is uneven, however: revenue fell from $394.3B (2022) to $383.3B (2023), recovered to $391.0B (2024), then rose to $416.2B (2025) — roughly 1.8% annualized over the period despite the strong recent quarter (E28). The acceleration is encouraging but the longer trajectory tempers confidence.
+The latest quarter shows strong acceleration, with revenue up 16.6% YoY (E11) and earnings up 21.8% YoY (E12). However, the multi-year top line is lumpier: revenue went $394.3B (2022) to $383.3B (2023) to $391.0B (2024) to $416.2B (2025) per E28, only about a ~1.8% annual CAGR. The trajectory is positive but the long-run trend is modest relative to the strong latest quarter.
 
 <sub>Evidence: `E11` Revenue growth (latest qtr YoY); `E12` Earnings growth (latest qtr YoY); `E28` Annual revenue trend</sub>
 
 ### Profitability & Margins
 **🟢🟢 Strong Positive**  ·  confidence: **high**
 
-Margins are exceptional and mutually reinforcing: 47.9% gross, 32.3% operating, and 27.2% net profit margin (E13–E15). Return on equity of 141.5% (E16) is extraordinary, though it is amplified by a low equity base from buybacks. Four direct, current data points all point the same direction.
+Margins are excellent across the stack: 47.9% gross (E13), 32.3% operating (E14) and 27.2% net (E15), with return on equity of 141.5% (E16, partly inflated by a low equity base from buybacks). Multiple direct, current metrics agree on best-in-class profitability.
 
 <sub>Evidence: `E13` Gross margin; `E14` Operating margin; `E15` Net profit margin; `E16` Return on equity</sub>
 
 ### Balance Sheet & Financial Health
 **⚪ Neutral**  ·  confidence: **medium**
 
-The picture is genuinely mixed. Apple carries a net debt position with $84.71B total debt against $68.51B cash (E19–E20) and an elevated debt/equity ratio of 79.55 (E21). Liquidity is thin, with a current ratio of just 1.07 (E22). These metrics are offset by very strong cash generation, but on the balance-sheet figures alone the signals balance out.
+Apple holds $68.51B cash (E19) against $84.71B total debt (E20), a modest net-debt position. Debt/equity is high at 79.55 (E21) and the current ratio is a thin 1.07 (E22). On the balance-sheet figures alone the picture is genuinely mixed - manageable but not conservatively capitalized.
 
 <sub>Evidence: `E19` Total cash; `E20` Total debt; `E21` Debt/Equity; `E22` Current ratio</sub>
 
 ### Valuation
 **🔴 Negative**  ·  confidence: **medium**
 
-Valuation multiples are stretched: trailing P/E of 35.84, forward P/E of 30.89, price/book of 40.83, and a PEG of 2.35 (E7–E10), the latter well above 1 indicating the price is rich relative to growth. The analyst mean target of $312.72 implies only ~5.5% upside from the $296.42 current price (E2–E3), confirming limited valuation headroom. Multiple direct points agree the stock is expensive.
+Multiples are rich: trailing P/E 36.18 (E7), forward P/E 31.19 (E8), price/book 41.22 (E9) and a PEG of 2.35 (E10), the last implying the price more than fully reflects expected growth. At $299.24 (E2) the stock sits only ~4.5% below the $312.72 mean analyst target (E3), leaving limited upside.
 
 <sub>Evidence: `E2` Current price; `E3` Analyst mean target price; `E7` Trailing P/E; `E8` Forward P/E; `E9` Price/Book; `E10` PEG ratio</sub>
 
 ### Cash Flow Quality
 **🟢🟢 Strong Positive**  ·  confidence: **high**
 
-Cash generation is very strong, with $140.22B trailing-twelve-month operating cash flow converting to $101.09B free cash flow (E17–E18) — roughly a 72% FCF/OCF conversion rate. The scale and quality of cash flow are direct strengths.
+Cash generation is exceptional: $140.22B operating cash flow (E18) and $101.09B free cash flow (E17) on a TTM basis, roughly 72% FCF conversion. Two direct, current data points confirm high-quality, self-funding cash flow.
 
 <sub>Evidence: `E17` Free cash flow (TTM); `E18` Operating cash flow (TTM)</sub>
 
 ### Competitive Position / Moat
 **⬜ Insufficient Data**  ·  confidence: **low**
 
-No direct competitive evidence — market share, switching costs, pricing power, or durable competitive advantage — is provided. The business summary (E29) lists product lines and ecosystem services (App Store, AppleCare, cloud) but contains no moat data, so this dimension cannot be rated and is flagged as a data gap rather than guessed.
+No direct competitive evidence (market share, switching costs, pricing power, or peer comparison) is provided. The business summary and sector tag describe Apple's product lines but say nothing about the durability of its competitive position, so this dimension cannot be rated without guessing. See data gaps.
 
 <sub>Evidence: _no citation_</sub>
 
 ### Momentum & Market Sentiment
 **🟢 Positive**  ·  confidence: **high**
 
-Sentiment and momentum are clearly favorable: the stock is up 51.5% over the past 52 weeks (E25) and trades at $296.42, near its 52-week high of $317.40 and well above the $195.07 low (E2, E4, E5). Analyst consensus is buy across 43 covering analysts (E26–E27) with a mean target above the current price (E3), while beta of 1.09 indicates only slightly above-market volatility (E24).
+The stock is up 51.5% over the past 52 weeks (E25) and trades at $299.24 (E2), near its $317.40 high (E4) and well above its $195.07 low (E5). Analyst consensus is 'buy' across 43 analysts (E26, E27), with beta 1.09 (E24). Price momentum and sentiment are clearly favorable.
 
-<sub>Evidence: `E2` Current price; `E3` Analyst mean target price; `E4` 52-week high; `E5` 52-week low; `E24` Beta (volatility vs market); `E25` 52-week price change; `E26` Analyst consensus; `E27` # analysts covering</sub>
+<sub>Evidence: `E2` Current price; `E4` 52-week high; `E5` 52-week low; `E24` Beta (volatility vs market); `E25` 52-week price change; `E26` Analyst consensus; `E27` # analysts covering</sub>
 
 ### Risks & Red Flags
 **🔴 Negative**  ·  confidence: **medium**
 
-Several concrete risk signals are present: stretched valuation multiples (35.84 trailing P/E, 40.83 price/book, 2.35 PEG; E7, E9, E10), elevated leverage with debt/equity of 79.55 and a net debt position ($84.71B debt vs $68.51B cash; E20, E21, E19), and thin liquidity at a 1.07 current ratio (E22). There is also a concrete, company-specific regulatory action: the Italian competition watchdog's investigation into Apple's cloud service practices (E32). Off-topic headlines about SpaceX and STMicro (E30–E31, E33–E34) are disregarded as non-evidence.
+Concrete risk signals are present: stretched valuation multiples (P/E 36.18, forward 31.19, P/B 41.22, PEG 2.35 - E7-E10), high leverage with debt/equity of 79.55 (E21), and thin liquidity with a current ratio of 1.07 (E22). Recent news headlines (E30-E34) are not substantive financial-risk evidence and are excluded per the rules.
 
-<sub>Evidence: `E7` Trailing P/E; `E9` Price/Book; `E10` PEG ratio; `E19` Total cash; `E20` Total debt; `E21` Debt/Equity; `E22` Current ratio; `E32` Headline</sub>
+<sub>Evidence: `E7` Trailing P/E; `E8` Forward P/E; `E9` Price/Book; `E10` PEG ratio; `E21` Debt/Equity; `E22` Current ratio</sub>
 
 ## Key Risks
 
-- Stretched valuation: 35.84 trailing P/E, 40.83 price/book, and 2.35 PEG, with the analyst mean target of $312.72 only ~5.5% above the $296.42 price (E2, E3, E7, E9, E10).
-- Elevated leverage and net debt: total debt of $84.71B exceeds $68.51B cash and debt/equity is 79.55 (E19, E20, E21).
-- Thin liquidity: current ratio of just 1.07 (E22).
-- Regulatory exposure: Italian competition watchdog investigation into Apple's cloud service practices (E32).
-- Choppy multi-year revenue, including a decline from $394.3B (2022) to $383.3B (2023) before recovery (E28).
+- Stretched valuation: trailing P/E 36.18, forward P/E 31.19, price/book 41.22 and PEG 2.35 (E7-E10) leave little margin for disappointment.
+- Limited upside to consensus: $299.24 price versus $312.72 mean analyst target, only ~4.5% (E2, E3).
+- Leverage and liquidity: debt/equity of 79.55 and a 1.07 current ratio, with total debt ($84.71B) exceeding cash ($68.51B) (E19-E22).
+- Modest multi-year growth: revenue rose only from $394.3B (2022) to $416.2B (2025), ~1.8% CAGR (E28), so the strong latest quarter may not be representative of the trend.
 
 ## Data Gaps (limit confidence)
 
-- No competitive/moat data: market share, switching costs, pricing power, or ecosystem lock-in metrics.
-- No revenue segment breakdown (e.g. iPhone vs. Services mix) or geographic exposure.
-- No historical margin or ROE trend to confirm whether profitability is stable, expanding, or peaking.
-- No forward analyst growth estimates or management guidance beyond the implied forward P/E.
-- No peer or industry valuation comparison to contextualize the rich multiples.
-- Limited capital-return detail: only a 0.36% dividend yield is given (E23), with no buyback or total shareholder-return data.
-- No debt maturity schedule, interest coverage, or insider/institutional ownership data.
+- No competitive/moat evidence (market share, switching costs, pricing power, peer comparison) - Competitive Position could not be rated.
+- No valuation context (Apple's own historical multiples or peer comparables) to judge whether current multiples are unusually high.
+- No segment breakdown (e.g., Services vs Products) or forward guidance to assess growth durability.
+- No margin or ROE trend history to confirm whether current profitability is sustainable.
+- Capital-return detail is limited to a 0.36% dividend yield (E23); buyback magnitude and debt-maturity profile are absent.
+- Recent news headlines (E30-E34) are not financially substantive; the regulatory item (Italy DMA probe, E32) carries no quantified impact.
 
 ---
 
 ## Evidence used
 
 - `E1` (Profile) **Sector / Industry**: Technology / Consumer Electronics
-- `E2` (Price) **Current price**: $296.42
+- `E2` (Price) **Current price**: $299.24
 - `E3` (Price) **Analyst mean target price**: $312.72
 - `E4` (Price) **52-week high**: $317.40
 - `E5` (Price) **52-week low**: $195.07
-- `E6` (Size) **Market cap**: $4.35T
-- `E7` (Valuation) **Trailing P/E**: 35.84
-- `E8` (Valuation) **Forward P/E**: 30.89
-- `E9` (Valuation) **Price/Book**: 40.83
+- `E6` (Size) **Market cap**: $4.40T
+- `E7` (Valuation) **Trailing P/E**: 36.18
+- `E8` (Valuation) **Forward P/E**: 31.19
+- `E9` (Valuation) **Price/Book**: 41.22
 - `E10` (Valuation) **PEG ratio**: 2.35
 - `E11` (Growth) **Revenue growth (latest qtr YoY)**: 16.6%
 - `E12` (Growth) **Earnings growth (latest qtr YoY)**: 21.8%
@@ -113,10 +113,10 @@ Several concrete risk signals are present: stretched valuation multiples (35.84 
 - `E27` (Sentiment) **# analysts covering**: 43
 - `E28` (Growth) **Annual revenue trend**: 2022: $394.3B → 2023: $383.3B → 2024: $391.0B → 2025: $416.2B
 - `E29` (Profile) **Business summary**: Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats products, and HomePod, as well as Apple branded and third-party accessories. It also provides AppleCare support and cloud services; and operates various platforms, including the App Store that allow customers to discover and download applications
-- `E30` (Recent News) **Headline**: Why the biggest "Magnificent 7" stocks have one giant headwind coming right at them
-- `E31` (Recent News) **Headline**: SpaceX Approaches $3 Trillion Market Value as Post-IPO Rally Continues
-- `E32` (Recent News) **Headline**: Italian Competition Watchdog Launches Investigation Into Apple’s Cloud Service Practices (AAPL)
-- `E33` (Recent News) **Headline**: SpaceX Valuation Set to Top Amazon on Third Trading Day
-- `E34` (Recent News) **Headline**: STMicro Eyes $1.5 Billion Convertible Bonds After AI-Fueled Jump
+- `E30` (Recent News) **Headline**: SpaceX closes in on Amazon in sprint toward $3 trillion
+- `E31` (Recent News) **Headline**: Dow Hits Record High On Strong Banks And Industrial Stocks, Nasdaq And S&P 500 Slip On Tech Weakness — SPCX, YUM, HOOD, RIVN, AAPL, SNAP In Focus
+- `E32` (Recent News) **Headline**: Apple (AAPL) Faces Italy DMA Probe Over Cloud Interoperability
+- `E33` (Recent News) **Headline**: Snap unveils its $2,195 augmented reality glasses as rivalry with Meta heats up
+- `E34` (Recent News) **Headline**: Sector Update: Tech Stocks Fall Late Afternoon
 
 <sub>Generated by Equity Thesis Agent. Not investment advice. All ratings are grounded strictly in the evidence listed above.</sub>

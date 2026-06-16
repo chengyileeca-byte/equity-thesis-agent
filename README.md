@@ -52,16 +52,22 @@ Measured on live data via `python -m evals.run`:
   0 uncited ratings, ~98–100% of quoted numbers traced to cited evidence.**
 - **Refusal-to-guess (AAPL, evidence stripped to price-only):** **75%** of
   dimensions correctly marked `insufficient_data` instead of inventing a thesis.
-- **Consistency (AAPL, 3 runs on identical evidence):** **100% of dimensions
-  unanimous, 100% overall agreement.**
+- **Consistency (AAPL, 3 runs on identical evidence):** per-dimension ratings are
+  highly reproducible; the model's *holistic overall* can be the noisier part (it
+  wobbled in earlier runs) — so the harness now reports it directly: run-to-run
+  stability + calibration against a rules baseline, instead of hiding it.
 
-The harness earned its keep — it surfaced real weaknesses, which then got fixed:
+The harness earned its keep — it surfaced real behaviour, which shaped the design:
 
-| Weakness the eval caught | Fix | Before → After |
-|---|---|---|
-| Overall rating wobbled run-to-run | Compute it deterministically from the dimension ratings (`aggregate.py`) | overall agreement **50% → 100%** |
-| "Risks" dimension flip-flopped; vague news treated as risk | Explicit risk rubric in the system prompt | Risks now unanimous across runs |
-| Sparse data hedged to `neutral` instead of refusing | A `neutral` vs `insufficient_data` rule | refusal rate **62% → 75%** |
+| What the eval surfaced | How it's handled |
+|---|---|
+| Per-dimension ratings reproduce well, but the model's holistic **overall** can wobble run-to-run | **Keep the model's overall** — its judgment beats any fixed formula — but show a deterministic **rules-based baseline alongside** (`aggregate.py`) and have the eval measure the overall's **stability** and **calibration** (how often model and baseline agree). The disagreement is a signal, not a bug. |
+| "Risks" dimension flip-flopped; vague news treated as risk | Explicit risk rubric in the prompt → Risks now stable across runs |
+| Sparse data hedged to `neutral` instead of refusing | A `neutral` vs `insufficient_data` rule → refusal rate **62% → 75%** |
+
+> **Design stance:** the model is the judge; the engineering makes its judgment
+> *grounded, honest, and measurable*. That division — not out-scoring the model
+> with hand-rolled rules — is the point.
 
 ## Quickstart
 
@@ -97,9 +103,9 @@ Force one with `--backend sdk|cli`. Output prints and is saved to
 - [x] Fact sheet → grounded structured scorecard → report
 - [x] Eval harness: citation groundedness + refusal-to-guess + consistency
       (`python -m evals.run ...`)
-- [x] Deterministic overall rating — eval found the model's holistic roll-up
-      wobbled run-to-run, so the overall is now computed from the dimension
-      ratings (`aggregate.py`) instead of left to the model
+- [x] Rules-based overall baseline + calibration metric — the model gives the
+      overall, a deterministic baseline (`aggregate.py`) is shown alongside, and
+      the eval measures their agreement and the overall's run-to-run stability
 - [ ] Earnings-call transcript ingestion (PDF) as additional cited evidence
 - [ ] Pluggable data sources (TW market via FinMind) behind the same evidence
       interface

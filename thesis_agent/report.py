@@ -1,5 +1,6 @@
 """Render a scorecard as a readable Markdown report with resolved citations."""
 
+from .aggregate import compute_overall
 from .data import Evidence
 from .schema import DimensionAssessment, ThesisScorecard
 
@@ -36,11 +37,17 @@ def _dimension_block(d: DimensionAssessment, by_id: dict[str, Evidence]) -> str:
 def render_markdown(card: ThesisScorecard, evidence: list[Evidence]) -> str:
     by_id = {e.id: e for e in evidence}
     overall = _RATING_BADGE.get(card.overall_rating.value, card.overall_rating.value)
+    base_rating, base_conf = compute_overall(card.dimensions)
+    base_badge = _RATING_BADGE.get(base_rating.value, base_rating.value)
+    agree = "agrees with" if base_rating == card.overall_rating else "differs from"
 
     out = [
         f"# Thesis Scorecard — {card.company_name} ({card.ticker.upper()})",
         "",
-        f"## Overall: {overall}  ·  confidence: **{card.overall_confidence.value}**",
+        f"## Overall (model): {overall}  ·  confidence: **{card.overall_confidence.value}**",
+        "",
+        f"<sub>Rules-based baseline (deterministic cross-check): {base_badge} "
+        f"· {agree} the model's call.</sub>",
         "",
         card.summary,
         "",

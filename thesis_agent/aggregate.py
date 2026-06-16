@@ -1,12 +1,13 @@
-"""Deterministic overall rating.
+"""Rules-based overall rating — a deterministic *cross-check*, not the verdict.
 
-The eval harness found that per-dimension ratings are highly reproducible but the
-model's *holistic* overall rating wobbles run-to-run. So we don't let the model
-decide the overall — we compute it from the dimension ratings with a fixed,
-confidence-weighted rule. Same dimensions in → same overall out.
+The model gives the authoritative `overall_rating` (its holistic judgment is more
+accurate than any fixed formula). This module computes a simple, confidence-
+weighted baseline from the dimension ratings and shows it alongside, so a reader
+can see when the model's gestalt diverges from a mechanical roll-up — and the
+eval harness measures that agreement (calibration) and the model's run-to-run
+stability. Same dimensions in → same baseline out.
 
-A known blind spot (any `insufficient_data` dimension) caps overall confidence,
-because the analysis has a hole even if the rest is solid.
+A known blind spot (any `insufficient_data` dimension) caps baseline confidence.
 """
 
 from .schema import Confidence, DimensionAssessment, Rating
